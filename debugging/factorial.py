@@ -8,7 +8,5 @@ def factorial(n):
         n -= 1
     return result
 
-input_number = int(sys.argv[1])
-f = factorial(input_number)
-
-print("The factorial of", input_number, "is", f)
+f = factorial(int(sys.argv[1]))
+print(f)
